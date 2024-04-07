@@ -1,0 +1,39 @@
+input{
+    height: 2rem;
+    width: 12rem;
+    font-size: large;
+    border-radius: 2rem ;
+}
+button{
+    height: 2rem;
+    width:  6rem;
+    border: 0.08rem black solid;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+}
+h3{
+    display: inline-block;
+}
+#mean,#show
+{
+    line-height: 4rem;
+    display:inline;
+    font-size: larger;
+   
+}
+h1{
+    text-align: center;
+}
+.red{
+    color:red;
+}
+.green{
+    color: green;
+}
+body{
+    background-image: url("istockphoto-470721440-612x612.jpg");
+}
+p{
+    background-color: white;
+}
