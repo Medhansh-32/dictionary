@@ -2,7 +2,13 @@ input{
     height: 2rem;
     width: 12rem;
     font-size: large;
+    padding-left: 1.5rem;
     border-radius: 2rem ;
+}
+
+i{
+    position: relative ;
+    left: 1.7rem;
 }
 button{
     height: 2rem;
