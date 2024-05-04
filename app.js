@@ -20,10 +20,13 @@ async function showMean(ans,word){
 if(ans=="Incorrect Word"){
     str.innerText=" ";
     show.innerText= "Incorrect Word";
-    show.style.Color="red";
-    
+    show.style.color="red";
+
 }else{
     str.innerText="Meaning : ";
+    str.style.fontSize="1.5rem";
+    str.style.fontWeight="bolder";
+    show.style.color="green";
     show.innerText=  ans;
   
 

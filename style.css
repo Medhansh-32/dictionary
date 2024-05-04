@@ -1,22 +1,28 @@
 input{
     height: 2rem;
     width: 12rem;
+    font-family:cursive;
     font-size: large;
-    padding-left: 1.5rem;
+    padding-left: 2.5rem;
     border-radius: 2rem ;
+    border: 0.3rem solid black;
 }
 
 i{
     position: relative ;
-    left: 1.7rem;
+    left: 1.8rem;
+    bottom: 0.1rem;
+ 
 }
 button{
+    
     height: 2rem;
     width:  6rem;
-    border: 0.08rem black solid;
-    border-radius: 2rem;
-    background-color: black;
-    color: white;
+    border: 0.2rem black solid;
+    border-radius: 2.2rem;
+font-size: 1.2rem;
+    background-color:white;
+    color: black;
 }
 h3{
     display: inline-block;
@@ -28,7 +34,11 @@ h3{
     font-size: larger;
    
 }
+div{
+    margin-left: -1.4rem;
+}
 h1{
+    font-size: 4rem;
     text-align: center;
 }
 .red{
@@ -38,6 +48,8 @@ h1{
     color: green;
 }
 body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
     background-image: url("istockphoto-470721440-612x612.jpg");
 }
 p{
