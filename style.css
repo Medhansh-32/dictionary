@@ -1,7 +1,7 @@
 input{
     height: 2rem;
     width: 12rem;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     padding-left: 2.5rem;
     border-radius: 2rem ;
@@ -10,9 +10,7 @@ input{
 
 i{
     position: relative ;
-    left: 1.8rem;
-    bottom: 0.1rem;
- 
+    left: 1.8rem; 
 }
 button{
     
