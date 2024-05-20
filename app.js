@@ -24,7 +24,7 @@ if(ans=="Incorrect Word"){
 
 }else{
     let n=1;
-    show.innerHTML="";
+   show.innerHTML="";
     for(let i=0;i<ans.meanings.length;i++){
         for(let j=0;j<ans.meanings[i].definitions.length;j++){
       
