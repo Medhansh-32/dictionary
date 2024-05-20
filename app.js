@@ -6,8 +6,8 @@ const btn=document.querySelector("button");
 async function mean(word){
     try{
         let meaning= await axios.get(url+word);
-       
-        return meaning.data[0].meanings[0].definitions[0].definition;
+       console.log(meaning);
+        return meaning.data[0];
         }
         catch(e){
             return  "Incorrect Word";
@@ -23,12 +23,20 @@ if(ans=="Incorrect Word"){
     show.style.color="red";
 
 }else{
-    str.innerText="Meaning : ";
-    str.style.fontSize="1.5rem";
-    str.style.fontWeight="bolder";
-    show.style.color="green";
-    show.innerText=  ans;
-  
+    let n=1;
+    for(let i=0;i<ans.meanings.length;i++){
+        for(let j=0;j<ans.meanings[i].definitions.length;j++){
+      
+        show.style.color="rgb(10, 195, 10)";
+        show.innerHTML= show.innerHTML+`<p><div id="update">Meaning ${n}</div> : ${ans.meanings[i].definitions[j].definition}`;
+        n++;   
+        console.log(ans.meanings[i].definitions[j].definition);
+        }
+    
+    }
+   
+   
+   
 
     
 }

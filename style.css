@@ -27,7 +27,7 @@ h3{
 }
 #mean,#show
 {
-    line-height: 4rem;
+    line-height: 2rem;
     display:inline;
     font-size: larger;
    
@@ -43,7 +43,7 @@ h1{
     color:red;
 }
 .green{
-    color: green;
+    color: rgb(10, 195, 10);
 }
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -52,4 +52,11 @@ body{
 }
 p{
     background-color: white;
+}
+#update{
+    display: inline;
+    font-weight:bold;
+    margin-left: 0rem;
+    font-size: 1.5rem;
+    color: black;
 }
